@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tajawal&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(26, 26, 26);
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.homepage{
+    display: flex;
+    /* margin-top: 20px; */
+}
+
+.sidebar{
+    background-color: rgb(34, 33, 33);
+    width: 300px;
+    /* margin-top: 20px; */
+    position: absolute;
+}
+
+.icon{
+    display: flex;
+    /* flex-direction: column; */
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.img1{
+    filter: invert(1);
+    height: 40px;
+    padding-right: 20px;
+}
+
+.img2{
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.cat1 div,.cat2 div,.cat3 div,.cat3 h5{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px; 
+
+}
+
+.cat1 div img,.cat2 div img,.cat3 div img{
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+}
+
+.divimg1{
+    filter: invert(1);
+}
+
+.cat1 div p,.cat2 div p,.cat3 div p{
+    /* margin-left: -100px; */
+    padding: none;
+    color: white;
+    font-size: 16px;
+}
+
+.cat1 div:last-child,.cat2 div:last-child,.cat3 div:last-child{
+    border-bottom: 1px solid rgb(84, 84, 84);
+    /* border-block-start: -40px; */
+    margin-right: 20px;
+
+}
+
+.cat1 div:first-child{
+    background-color:rgb(84, 84, 84) ;
+    margin-left:10px ;
+    padding-left: 13px;
+    margin-right: 20px;
+}
+
+.cat3 h5{
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.body{
+    margin-left: 320px;
+}
+
+.topmost{
+    display: flex;
+    /* margin-top: 10px; */
+    border-bottom: 1px solid rgb(78, 78, 78);
+    margin-right: 50px;
+}
+
+.btns{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    width: 40vh;
+    margin-left: 280px;
+    margin-right: 70px;
+}
+
+.btns img{
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+}
+
+.srch{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* width: 40vh; */
+    margin-left: 320px;
+    /* margin-right: 40px; */
+    
+}
+
+.srch img{
+    height: 35px;
+    width: 35px;
+}
+
+.srch div:first-child{
+    height: 47px;
+    width: 500px;
+    justify-content: center;
+    border: solid 1px rgb(78, 78, 78);
+    color: rgb(186, 177, 177);
+}
+
+.srch div:first-child p{
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.srch div:nth-child(2){
+    height: 47px;
+    width: 80px;
+    justify-content: center;
+    border: solid 1px rgb(78, 78, 78);
+    background-color: rgb(78, 78, 78);
+}
+
+.srch div:nth-child(2) img{
+    padding-top: 8px;
+    padding-left: 22px;
+}
+
+.srch div:last-child{
+    padding-left: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(84, 84, 84);
+}
+
+.top div{
+    border: 1.5px solid rgb(114, 114, 114);
+    padding: 10px;
+    color: white;
+    border-radius: 70px;
+    background-color: rgb(58, 56, 56);
+    width: fit-content;
+    height: 19px;
+    text-align: center;
+    
+}
+
+.top div:first-child{
+    color: black;
+    background-color: white;
+}
+
+.content{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.cont1{
+    display: flex;
+    color: white;
+}
+
+.cont2,.cont3{
+    display: flex;
+    margin-top: 17px;
+    color: white;
+}
+
+.inside{
+    width: 330px;
+    height: 300px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.wid{
+    height: 200px;
+    width: 350px;
+}
+
+.flex{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    line-height: 17px;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+}
+
+.flex img{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.flex h5,.playlist h5{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.playlist h5{
+    margin-top: 17px;
+    padding: 0;
+}
+
+.playlist p{
+    margin-top: -10px;
+    padding: 0;
+}
+
+.inside p{
+    display: inline;
+    color: rgb(194, 194, 194);
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 50px;
+    font-size: small;
+}
+
+.playlist p{
+    margin: 0;
+}
+
+.cont3 img{
+    display: flex;
+    padding-right: 20px;
+    /* margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 30px; */
+}
+
+img.dot{
+    height: 5px;
+    /* margin-bottom: 2px; */
+    padding: 2px;
+}
+
+img.verified{
+    height: 10px;
+    padding: 0 0 0 3px ;
+    z-index: -1;
+}
+
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .categories{
+        position: absolute;
+    }
+
+    .btns img:first-child,.btns img:nth-child(2),.btns img:nth-child(3){
+        display: none;
+    }
+    .cat2,.cat3{
+        display: none;
+    }
+
+    .cat1{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        width: fit-content;
+        height: 80px;
+        margin-left: -18px;
+        margin-right: 100px;
+        background-color: rgb(26, 26, 26);
+       
+    }
+    .cat1 div{
+        align-items: center;
+        justify-content: center;
+        /* padding-left: 20px; */
+        align-items: center;
+        
+    }
+    
+    .cat1 div:first-child{
+        background-color: rgb(26, 26, 26);
+    }
+
+    .cat1 div:last-child{
+        border: none;
+    }
+    
+    .sidebar{
+        background-color: rgb(26, 26, 26);
+    }
+
+    .body{
+        margin-left: 10px;
+    }
+
+    .icon{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .top{
+        display: none;
+    }
+
+    .img1{
+        padding-right: 10px;
+        margin: 0px;
+    }
+
+    .cont1,.cont2{
+        display: block;
+        width: auto;
+    }
+    .cont3{
+        display: none;
+    }
+
+    .inside{
+        margin-bottom: 60px;
+        width: 400px;
+    }
+
+    .inside>img{
+        width: 470px;
+        height: 260px;
+    }
+
+    .content{
+        margin-left: 20px;
+        z-index: -1;
+    }
+
+    div.searchbar{
+        display: none
+    }
+
+    .topmost{
+        border: 0;
+    }
+
+    .srch div:nth-child(2){
+        margin-left: 50px;
+        height: 50px;
+        width: 80px;
+        background-color: rgb(26, 26, 26);
+        border: 0;
+    }
+
+    .btns img:last-child{
+        /* display: block; */
+        margin-left: -300px;
+        z-index: 1;
+    }
+
+    .srch div:last-child{
+        display: none;
+    }
+
+    
+}
